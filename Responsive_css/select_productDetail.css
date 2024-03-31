@@ -1,0 +1,155 @@
+@media screen and (max-width:376px){
+
+    .navbar{
+        position: sticky;
+        top: 0;
+        justify-content: space-between !important;
+        z-index: 99999;
+    }
+
+    .sidebar{
+        position: fixed;
+        height: 100vh !important;
+        z-index: 999999;
+
+        top: 0;
+    }
+
+    .sidebar-icon{
+        display: block !important;
+    }
+
+   .sidebar li {
+        font-size: 13px !important;
+   }
+
+   .sidebar h4{
+    font-size: 22px !important;
+   }
+ 
+
+    .collection-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collection-items{
+        width: 16rem;
+        height: 20rem;
+    }
+
+    .collection-img{
+        width: 14rem;
+    }
+
+    .product-items{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .product-items .card{
+        width: 16rem;
+    }
+
+    .card-image{
+        width:  20rem;
+    }
+
+    .card-image img{
+        height: 100%;
+    }
+
+    /* Select Product Detail Responisive for mobile start*/
+    .select-productDetail{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+   
+
+    .differnt-variants{
+        width: 20rem;
+    }
+
+    .share-btn{
+        font-size: 12px !important;
+    }
+
+    .action-btn {
+        width: 20rem;
+        margin-top: 1rem;
+        display: grid !important;
+        justify-items: center;
+        gap:.5rem;
+    }
+
+    .action{
+        display: grid;
+    }
+
+   .d_btn{
+    width: 15.5rem;
+    padding: 10px;
+
+   }
+    .abtn{
+        /* width: 4rem; */
+        padding: 10px;
+
+        font-size: 15px !important;
+    }
+
+    .variants-box img{
+        height: 100%;
+    }
+
+    .action-btn{
+        width: 10rem;
+        flex-direction: column;
+    }
+    .image-gallery{
+        flex-direction: column;
+    }
+    .select_product-image {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .select_product-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-descripation{
+        width: 20rem;
+        margin-top: 2rem !important;
+    }
+
+    .modal-header{
+        background-color: #023047 !important;
+        padding: 5px !important;
+    }
+
+    #buynow_modal{
+        margin-top: 5rem !important;
+        height: 43rem !important;
+    }
+
+    #DownloadImageModal{
+        margin-top: 5rem !important;
+    }
+
+    #buynow_modal .modal-header {
+        padding: 5px !important;
+    }
+
+    #buynow_modal .modal-heder h1{
+        font-size: 15px !important
+    }
+
+
+
+    /* Select Product Detail Responisive for mobile end*/
+
+}

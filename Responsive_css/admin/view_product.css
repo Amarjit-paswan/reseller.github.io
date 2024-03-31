@@ -1,0 +1,66 @@
+@media screen and (max-width:376px){
+
+    table{
+        width: 20rem !important;
+        overflow: scroll;
+    }
+
+    .tbody-container{
+        width: 20rem !important;
+    }
+
+    .product_search_field{
+        font-size: 8px;
+        width: 5rem !important;
+    }
+
+    .product-details-container{
+        padding: 8px !important;
+    }
+  td{
+    font-size: 10px !important;
+    height: 80px !important;
+  }
+
+  th{
+    font-size: 10px !important;
+
+  }
+
+  .action-btn {
+    display: flex !important;
+    flex-direction: column;
+    width: 4rem !important;
+  }
+
+  .action-btn .btn{
+    font-size: 10px !important;
+ 
+  }
+
+.box-item .btn{
+    font-size: 8px !important;
+    padding: 5px 3px !important;
+
+}
+
+
+.product-details .tbody-container{
+    height: 500px !important;
+}
+
+#editProductModal{
+    margin-top: 5rem;
+    height: 0rem !important;
+}
+
+
+#editProductModal .btn{
+    width: 3rem !important;
+    font-size: 8px !important;
+}
+
+
+
+
+}

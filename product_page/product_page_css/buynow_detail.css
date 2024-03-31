@@ -1,0 +1,23 @@
+
+
+.product-preview-box img{
+    width: 8rem;
+    height: 10rem;
+}
+
+.select-product-preview{
+    height: 32rem;
+}
+
+.total-amountbox{
+    border-top: 2px solid blue;
+}
+
+.cash_on_delivery img{
+    width: 8rem;
+}
+
+#payment:checked .p_method{
+    background-color: blue !important;
+}
+

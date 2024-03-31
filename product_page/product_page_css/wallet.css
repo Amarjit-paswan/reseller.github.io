@@ -1,0 +1,45 @@
+.wallent_balance_container{
+    background:#0230475b ;
+    border-radius: 15px;
+}
+
+.withdrawn-btn_container .btn-primary{
+    border-radius: 10px !important;
+
+}
+
+.transaction-container th{
+    padding: 20px ;
+}
+
+.transaction-container td{
+    padding: 20px;
+}
+
+.transaction-container table thead{
+    background-color: #023047 ;
+    color: white;
+}
+
+#withdrawn-amount{
+    padding:10px 20px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 2px solid #4e73df;
+    outline: none;
+    text-align: center;
+}
+
+.amount::-webkit-outer-spin-button,
+.amount::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+.amount {
+    -moz-appearance: textfield;
+}
+
+.select-amount-price button{
+    width: 10rem !important;
+}

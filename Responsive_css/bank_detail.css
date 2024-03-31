@@ -1,0 +1,12 @@
+@media screen and (max-width:376px){
+    .bankBox{
+        width: 19rem;
+        min-height: 30rem;
+        margin-right: 0 !important;
+    }
+
+    .bankBox img{
+        width: 5rem;
+        
+    }
+}

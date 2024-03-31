@@ -1,0 +1,116 @@
+@media screen and (max-width:376px){
+
+    .navbar{
+        position: sticky;
+        top: 0;
+        justify-content: space-between !important;
+        z-index: 99999;
+    }
+
+    .sidebar{
+        position: fixed;
+        height: 100vh !important;
+        z-index: 999999;
+
+        top: 0;
+    }
+
+    .sidebar-icon{
+        display: block !important;
+    }
+
+   .sidebar li {
+        font-size: 13px !important;
+   }
+
+   .sidebar h4{
+    font-size: 22px !important;
+   }
+ 
+
+    .collection-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card{
+        width: 10rem;
+        height: 22rem;
+    }
+
+    .card .card-body h5{
+        font-size: 18px;
+    }
+
+    .card-body .star{
+        font-size: 10px;
+        margin: 0 !important;
+    }
+
+    .collection-items{
+        width: 16rem;
+        height: 20rem;
+    }
+
+    .collection-img{
+        width: 14rem;
+    }
+
+    .product-items{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: .5rem;
+     justify-items: center;
+     
+    }
+
+    .price-tag h3{
+        font-size: 20px !important;
+    }
+
+    .price-tag p{
+        font-size: 10px;
+    }
+
+    #selectProductDetail_modal{
+        width: 20rem !important;
+        height: 30rem !important;
+        margin: 1rem 0 !important;
+        margin:4rem 2rem !important;
+        z-index: 999999999999999;
+    }
+
+    #selectProductDetail_modal .modal-header{
+        padding: 3px 10px !important;
+    }
+
+    #selectProductDetail_modal .modal-content{
+        height: 28rem !important;
+    }
+
+    #selectProductDetail_modal .price-btn button{
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price-btn input{
+        width: 5rem !important;
+        height: 2rem;
+    }
+
+    #selectProductDetail_modal img{
+        width: 100% !important;
+        height: 11rem !important;
+    }
+
+  
+
+  
+
+  
+}

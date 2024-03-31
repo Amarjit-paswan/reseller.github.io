@@ -1,0 +1,83 @@
+@media screen and (max-width:376px){
+
+
+
+.dashboard_productDetail{
+    grid-template-columns: 1fr;
+}
+
+.product_detail{
+    width: 21rem;
+    height: 10rem;
+    padding:15px 15px;
+    border-radius: 5px;
+}
+
+
+
+.top-selling-products{
+    height: 20rem;
+    margin: 10px 0;
+}
+.table thead{
+    /* font-size: 10px !important; */
+    width: 3rem !important;
+}
+
+.product-name{
+    gap: 10px !important;
+}
+
+.product-name h5{
+    font-size: 12px !important;
+}
+
+.product-name p{
+    font-size: 8px !important;
+}
+
+.table tbody tr td{
+    font-size: 10px !important;
+}
+
+.table tbody tr td .btn{
+    width: 3rem !important;
+}
+
+.coustmer-status{
+    width: 3rem;
+}
+
+.coustmer-status table th{
+    padding: 18px;
+    font-size: 10px;
+}
+
+.product-name img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+thead tr th{
+    width: 3rem !important;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.coustmer-status .table tbody{
+    width: 100% !important;
+}
+
+.product_status{
+    width: 4rem;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery_status{
+    display: none;
+}
+}

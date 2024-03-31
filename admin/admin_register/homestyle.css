@@ -1,0 +1,301 @@
+
+
+.custom-navbar {
+    background:#4e73df !important;
+}
+
+.navbar-nav{
+    width: 30rem;
+}
+.nav-link{
+  color: #c7c5c5 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.section-1{
+    /* margin-top: calc(24vh - 100px);  */
+    background:#4e73df !important;
+
+}
+
+.access-form{
+    max-width: 70rem;
+    /* min-height: 32rem; */
+    max-height: 34rem;
+}
+
+.access-form .access-img{
+    height: 100%;
+}
+
+
+.access-img img{
+    width: 30rem;
+    height: 100%;
+
+}
+
+.become-patner{
+    gap: 1rem;
+}
+
+.button{
+    border-radius: 10rem;
+    padding: 0.75rem 3rem;
+    color: white;
+}
+
+.reseller-btn:hover{
+    background:rgb(6, 112, 6) !important;
+}
+
+.wholesaller-btn:hover{
+    background: rgb(10, 10, 207) !important;
+}
+
+.form-box{
+    width: 100%;
+    border: 1px solid #bfbdbd;
+    border-radius: 10px;
+}
+
+.access-form .form-detail{
+    width: 40rem !important;
+    /* height: 100%; */
+    /* height: 32rem !important; */
+
+    max-height: 34rem;
+}
+
+.or{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.or hr{
+    width: 100%;
+}
+
+.or p{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+
+.form-box.active{
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.793);
+}
+
+
+
+.form-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.password-eye{
+    position: relative;
+
+}
+
+.eye{
+    font-size: 28px;
+    position: absolute;
+    right: 1rem;
+}
+
+.login-btn{
+    background:#0841eb !important;
+    padding: 10px !important ;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.cng-email{
+    padding: 10px !important ;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.login-btn:hover{
+    background: blue !important;
+    color: white;
+}
+
+.card{
+    box-shadow: 0 0 5px black;
+    transition: .3s ;
+
+}
+
+ /* Top Collection Styles start */
+
+.top-collection-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.card{
+    width: 20rem !important;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px black;
+
+}
+
+
+.fa-arrow-right{
+    transition: 5s !important;
+    display: none !important;
+
+}
+
+.card:hover .fa-arrow-right{
+    display: block !important;
+
+}
+
+.card-image{
+    overflow: hidden;
+
+}
+
+.card:hover .card-image img{
+    transform: scale(1.3);
+}
+
+.card-image img{
+    max-height: 23rem;
+    transition: 1s ;
+}
+
+.discount{
+    width: 4rem;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ /* Top Collection Styles end */
+
+/* About Us Styles Start */
+
+.about-us{
+    /* background-color: #14c68a; */
+    background-color: #eff2f1 !important;
+    overflow-x: hidden;
+
+
+}
+
+
+
+.about-detail img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 15px;
+}
+
+.service-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-box{
+    max-width: 20rem;
+    max-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+}
+
+.about-detail{
+    min-height: 80vh !important;
+}
+
+.image-style{
+    position: relative;
+}
+
+.first-image img{
+    width: 25rem;
+
+}
+
+.second-image img{
+    width: 20rem;
+    height: 25rem;
+    margin-top: -20rem;
+    margin-left: 20rem;
+}
+
+.third-image img{
+    width: 14rem;
+    height: 14rem;
+    margin-top: -68rem;
+    margin-left: 56%;
+}
+
+.list li{
+    padding: 10px;
+}
+
+.explore-btn{
+    padding: 10px 2rem;
+    background-color:black;
+    color: white;
+}
+
+
+/* About Us Styles end */
+
+/* Footers Styels starts */
+.footer{
+    background: #4e73df;
+}
+
+.icon-item{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.footer-list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-list ul{
+    list-style: none;
+
+}
+/* Footers Styels end */

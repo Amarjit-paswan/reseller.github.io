@@ -1,0 +1,32 @@
+@media screen and (max-width:376px){
+    .product_search_field{
+        width: 5rem;
+        font-size: 8px !important;
+    }
+
+   table{
+   
+    font-size: 8px !important;
+   }
+
+   table tr,th,td{
+    padding:10px 5px !important; 
+    }
+
+    td{
+        font-size: 8px !important;
+    }
+
+    td img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .box-item button{
+        font-size: 10px !important;
+    }
+
+    .product-details-container{
+        padding: 5px !important;
+    }
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width:376px){
+    
+    table{
+        width: 20rem !important;
+        overflow: scroll;
+    }
+
+    .tbody-container{
+        width: 20rem !important;
+    }
+
+    .product_search_field{
+        font-size: 10px !important;
+        width: 5rem !important;
+    }
+
+  
+
+    td{
+        font-size: 10px !important;
+        height: 80px !important;
+        padding: 0 !important;
+      }
+  
+      th{
+        font-size: 10px !important;
+    
+      }
+    
+      .action-btn {
+        display: flex !important;
+        flex-direction: column;
+        width: 4rem !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .action-btn .btn{
+        font-size: 8px !important;
+        width: 2rem !important;
+        display: flex;
+        justify-content: center;
+      }
+    
+    .box-item .btn{
+        font-size: 8px !important;
+        padding: 5px 3px !important;
+    
+    }
+}

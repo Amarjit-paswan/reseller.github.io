@@ -1,0 +1,636 @@
+:root{
+    --blue:#023047 ;
+    --orange:#FB8503;
+    --yellow:#FFB703;
+}
+
+.bg-green{
+    background-color:#023047 ;
+    color: white;
+}
+
+
+
+.bg-orange{
+    background-color: #FB8503;
+}
+
+.bg-yellow{
+    background-color: #FFB703;
+}
+
+.custom-navbar {
+    background: #023047 !important;
+    /* background:#023047 !important; */
+}
+
+.navbar-nav{
+    width: 30rem;
+}
+.nav-link{
+  color: #c7c5c5 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.section-1 {
+    width: 100% !important;
+    height: 90vh;
+    background:  url('../image/background_banner.jpeg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size:100vw 90vh;
+    /* background-size: 100%; */
+    position: relative;
+}
+
+.access-form .form-detail{
+    width: 30rem !important;
+    /* height: 100%; */
+    /* height: 32rem !important; */
+    box-shadow: 0 0 10px black;
+    border-radius: 10px ;
+    max-height: 34rem;
+    position: absolute;
+    top: 15%;
+    right: 2rem;
+    
+}
+
+
+
+.access-form{
+    max-width: 70rem;
+    /* min-height: 32rem; */
+    max-height: 34rem;
+}
+
+.access-form .access-img{
+    height: 100%;
+}
+
+
+.access-img img{
+    width: 30rem;
+    height: 100%;
+
+}
+
+.become-patner{
+    gap: 1rem;
+}
+
+.button{
+    border-radius: 10rem;
+    padding: 0.75rem 2rem;
+    color: white;
+}
+
+.reseller-btn:hover{
+    background:#f3c930 !important;
+    /* color: white; */
+}
+
+.wholesaller-btn:hover{
+    background:  #ec9734 !important;
+}
+
+.form-box{
+    width: 100%;
+    border: 1px solid #bfbdbd;
+    border-radius: 10px;
+}
+
+
+.or{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.or hr{
+    width: 100%;
+}
+
+.or p{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+
+.form-box.active{
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.793);
+}
+
+
+
+.form-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.password-eye{
+    position: relative;
+
+}
+
+.eye{
+    font-size: 28px;
+    position: absolute;
+    right: 1rem;
+}
+
+.login-btn{
+    background:#023047 !important;
+    padding: 10px !important ;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.cng-email{
+    padding: 10px !important ;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.login-btn:hover{
+    background: #079630 !important;
+    color: white;
+}
+
+.card{
+    box-shadow: 0 0 5px black;
+    transition: .3s ;
+
+}
+
+ /* Top Collection Styles start */
+
+.top-collection-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.card{
+    width: 20rem !important;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px black;
+
+}
+
+
+.fa-arrow-right{
+    transition: 5s !important;
+    display: none !important;
+
+}
+
+.card:hover .fa-arrow-right{
+    display: block !important;
+
+}
+
+.card-image{
+    overflow: hidden;
+
+}
+
+.card:hover .card-image img{
+    transform: scale(1.3);
+}
+
+.card-image img{
+    max-height: 23rem;
+    transition: 1s ;
+}
+
+.discount{
+    width: 4rem;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ /* Top Collection Styles end */
+
+/* About Us Styles Start */
+
+.about-us{
+    /* background-color: #14c68a; */
+    background-color: #eff2f1 !important;
+    overflow-x: hidden;
+
+
+}
+
+
+
+.about-detail img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 15px;
+}
+
+.service-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-box{
+    max-width: 20rem;
+    max-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+}
+
+.about-detail{
+    min-height: 80vh !important;
+}
+
+.image-style{
+    position: relative;
+}
+
+.first-image img{
+    width: 25rem;
+
+}
+
+.second-image img{
+    width: 20rem;
+    height: 25rem;
+    margin-top: -20rem;
+    margin-left: 20rem;
+}
+
+.third-image img{
+    width: 14rem;
+    height: 14rem;
+    margin-top: -68rem;
+    margin-left: 56%;
+}
+
+.list li{
+    padding: 10px;
+}
+
+.explore-btn{
+    padding: 10px 2rem;
+    background-color:#023047 ;
+    color: white;
+}
+
+
+/* About Us Styles end */
+
+/* Footers Styels starts */
+.footer{
+    background:  #FB8503;
+}
+
+.icon-item{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.footer-list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-list ul{
+    list-style: none;
+
+}
+/* Footers Styels end */
+
+
+/* Timeline Animation code start */
+.timeline{
+    position: relative;
+    /* max-width: 1200px; */
+    min-height: 100vh;
+    max-width: 100%;
+    z-index: 10;
+    margin-top: 100px;
+    /* margin: 100px auto; */
+    
+}
+
+
+
+.detail_animation{
+    width: 100%;
+    z-index: -90;
+    background: #eff2f1;
+    overflow-x: scroll;
+    transition: transform 0.3s ease; /* Smooth transition */
+
+}
+
+.detail_animation .tittle{
+    position: absolute;
+    right: 25%;
+}
+
+.detail_animation::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.containerbox{
+    /* padding: 10px 50px; */
+    width: 100%;
+    height: 30px;
+    position: relative;
+    animation: movedown 1s linear forwards ;
+    opacity: 0;
+}
+
+
+
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateX(-30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.containerbox span{
+    padding: 20px 25px;
+    width: 40px;
+    background-color: #023047 ;
+    border-radius: 50%;
+    position: absolute;
+    top: 20rem;
+    right: 50%;
+}
+
+
+
+.text-box{
+    padding: 20px 30px;
+    /* background: #FFB703; */
+    position: relative;
+    border-radius: 6px;
+    font-size: 12px;
+    width: 15rem;
+    height: 15rem;
+  max-width: 100%; /* Changed to percentage for responsiveness */
+    color: var(--orange);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 2rem; */
+}
+
+.text-box p{
+    font-weight: 600;
+}
+
+.containerbox img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.left-container .text-box{
+    /* background-color:  #FB8503; */
+    top: 2rem;
+}
+
+.text-box h2{
+    color: black;
+}
+
+.left-container{
+    top: -20rem;
+}
+
+.right-container{
+    top: 5rem;
+}
+
+.right-container span{
+    position: absolute;
+    top: -5rem;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 6px;
+    background: #023047 ;
+    top: 50%;
+    left: 0%;
+    z-index: -1;
+    animation: moveline 6s linear forwards  infinite;
+}
+
+@keyframes moveline{
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 140%;
+    }
+}
+/* .right-container-arrow {
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    background-color: #023047 ;
+    right: 52%;
+}
+
+.left-container-arrow{
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    bottom: 100%;
+    z-index: 1;
+   background-color: #023047 ;
+    left: 47%;
+} */
+
+
+.containerbox:nth-child(1){
+    animation-delay: 0.5s;
+}
+.containerbox:nth-child(2){
+    animation-delay: 1s;
+}
+.containerbox:nth-child(3){
+    animation-delay: 2s;
+}
+.containerbox:nth-child(4){
+    animation-delay: 3s;
+}
+.containerbox:nth-child(5){
+    animation-delay: 4s;
+}
+.containerbox:nth-child(6){
+    animation-delay: 5s;
+}
+
+/* .c_icon{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+} */
+
+
+
+/* Timeline Animation code end */
+
+
+/* Amiated icon */
+
+.animated_icon {
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.animated_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Why choose us Section for home page starts */
+
+.why_choose{
+    min-height: 100vh;
+}
+
+.why_choose .tittle h1{
+    font-size: 60px !important;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}
+
+.choose_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit,minmax(200px , 1fr)); */
+
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chooseBox{
+    max-width: 25rem;
+    /* background-color:#FB8503 ; */
+    height: 30rem;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chooseBox .icon{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.chooseBox .icon i{
+    font-size: 60px ;
+    color: var(--orange);
+}
+
+.chooseBox .content  h3{
+    /* color: var(--blue); */
+    color: white;
+}
+/* Why choose us Section for home page end */
+
+
+
+/* Seller Success Storires starts */
+
+.success_stories .tittle{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.success_stories .tittle h1{
+    font-size: 80px;
+}
+
+.profile-logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.profile-logo{
+    width: 100%;
+}
+
+
+.profile-logo h3{
+    color:var(--orange);
+}
+.video_box{
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.video_box i{
+    color: var(--orange) !important;
+}
+
+ .success_box{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    gap: 1rem;
+}
+
+
+/* Seller Success Storires end */

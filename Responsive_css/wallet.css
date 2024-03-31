@@ -1,0 +1,84 @@
+
+
+@media screen and (max-width:376px){
+    .sidebar{
+        height: 100% !important;
+    }
+
+    .table{
+        width: 10rem !important; 
+    }
+
+    .transaction-container td{
+        font-size: 12px;
+        padding: 5px 10px;
+        text-align: center;
+
+
+    }
+
+  
+
+    .transaction-container th{
+        font-size: 12px;
+        text-align: center;
+        padding:  10px;
+
+
+    }
+    .my-wallet-container{
+        margin: 15px 0 !important;
+    }
+
+    .complete{
+        width: 5rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px !important;
+    }
+
+   .transaction-container{
+    padding: 10px 5px !important;
+   }
+
+ 
+
+   
+
+   .withdrawn-btn_container button{
+    width: 8rem !important; 
+    font-size: 15px !important;
+   }
+
+  
+   .w_tittle h2{
+    font-size: 18px !important;
+   }
+
+   .w_tittle p{
+    font-size: 30px !important;
+   }
+
+   #walletModal{
+    margin-top: 5rem !important;
+   }
+
+   #walletModal .tittle p{
+    margin: 0 !important;
+    font-size: 15px !important;
+   }
+
+   #walletModal .transfer_bank-container{
+    margin: 0 !important;
+   }
+
+    #walletModal .bank_detail p{
+        font-size: 15px !important;
+    }
+
+    #withdrawn-amount{
+        padding: 10px !important;
+    }
+}

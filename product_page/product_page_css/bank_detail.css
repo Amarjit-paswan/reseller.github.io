@@ -1,0 +1,17 @@
+.bankDetails-container {
+    background: linear-gradient(rgba(158, 157, 157, 0.712), rgba(18, 18, 207, 0.548)), url('bank.avif') !important;
+    background-size: cover !important;
+    min-height: 90vh;
+
+}
+
+
+.bankBox{
+    width: 25rem;
+    min-height: 30rem;
+}
+
+.bankBox img{
+    width: 10rem;
+    
+}

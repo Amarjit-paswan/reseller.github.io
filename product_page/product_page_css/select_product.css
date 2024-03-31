@@ -1,0 +1,183 @@
+.select-productDetail{
+    gap: 1rem;
+}
+
+.select_product-image img {
+    width: 25rem;
+    height: 25rem;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+.select_product-image {
+    width: 25rem;
+    height: 35rem;
+    gap: 1rem;
+}
+
+.product-descripation{
+    flex: 1;
+}
+
+.image-type{
+    width: 6rem;
+    height: 400px;
+    overflow-y: scroll;
+    gap: 1rem;
+}
+
+
+
+.image-type::-webkit-scrollbar{
+    width: 0;
+    scroll-behavior: smooth;
+}
+
+.image-typeBox{
+    width: 6rem;
+    min-height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+}
+
+.image-typeBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.differnt-variants{
+    width: 25rem;
+    /* min-height: 200px;
+    height: 100px; */
+    gap: 1rem;
+    /* overflow-x: scroll; */
+    padding-left: 10px;
+
+}
+
+.variants-box{
+    min-width: 5rem;
+    height: 100px;
+    border-radius: 5px;
+    
+    /* border: 1px solid #000; */
+
+}
+
+
+
+.variants-box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.differnt-variants::-webkit-scrollbar{
+    width: 0px;
+    scroll-behavior: smooth;
+}
+
+.action-btn{
+    /* min-width: 25rem;
+    min-height: 50px;
+    border: 1px solid #000;
+    margin: 0; */
+    width: 32rem;
+    margin-top: -2rem;
+}
+
+.abtn{
+    width: 15.5rem;
+    padding: 15px;
+}
+
+.product-quantity{
+    width: 11.1rem;
+    border: 1px solid black;
+}
+
+.product-quantity button{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.product-quantity input{
+    width: 4rem;
+    /* padding: 10px; */
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+.no-spinner {
+    -moz-appearance: textfield;
+}
+
+.size-btn button{
+    padding: .7rem 1rem;
+    border: 0;
+    outline: none;
+    background: rgb(172, 172, 172);
+    border-radius: 2px;
+}
+
+.product-box img{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.add-price{
+    border-bottom: 2px solid blue;
+    width: 10rem;
+}
+
+.add-price input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+
+}
+
+
+
+.product-quantity button:hover{
+    background: #4e73df;
+    color: white;
+}
+
+.size-btn button:hover{
+    background: #4e73df;
+    color: white;
+    border: none;
+
+}
+
+.size-btn button.s_slt{
+    background: #4e73df;
+    color: white;
+    border: none;
+}
+
+.dwnld_image-container img{
+    width: 10rem;
+    height: 8rem;
+}
+.modal-header{
+    background-color: #023047 !important;
+    padding: 5px !important;
+    color: white;
+}

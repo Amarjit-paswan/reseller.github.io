@@ -1,0 +1,32 @@
+.collection-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.collection-items:hover .collection-img img{
+    transform: scale(1.3);
+}
+
+.collection-items:hover{
+    box-shadow: 0 0 10px black !important;
+}
+
+
+.collection-items{
+    max-width: 22rem;
+    border-radius: 10px;
+}
+
+
+.collection-img{
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+}
+
+.collection-img img{
+    width: 100%;
+    height: 100%;
+    transition: all .8s;
+}

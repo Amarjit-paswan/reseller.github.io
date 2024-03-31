@@ -1,0 +1,29 @@
+@media screen and(max-width:350px){
+    .navbar{
+        position: sticky;
+        top: 0;
+        justify-content: space-between !important;
+        z-index: 99999;
+    }
+
+    .sidebar{
+        position: fixed;
+        height: 100vh !important;
+        z-index: 999999;
+
+        top: 0;
+    }
+
+    .sidebar-icon{
+        display: block !important;
+    }
+
+   .sidebar li {
+        font-size: 13px !important;
+   }
+
+   .sidebar h4{
+    font-size: 22px !important;
+   }
+ 
+}
